@@ -18,5 +18,22 @@ else:
     print("I am not a student")
 
 friends = 5
-friends += 1
+# friends += 1
+# friends -= 2
+# friends *= 2
+# friends /= 2
+# friends %= 2
 print(friends)
+
+# type casting str(), int(), float(), bool()
+name = "Rahulagg"
+age = 26
+gpa = 3.8
+is_student = True
+
+age = str(age)
+print(type(age))
+
+# accept user input
+name = input("what is your name?")
+print(f"Hello {name}")

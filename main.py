@@ -26,13 +26,16 @@ friends = 5
 print(friends)
 
 # type casting str(), int(), float(), bool()
-name = "Rahulagg"
+# name = "Rahulagg"
+name = ""
 age = 26
 gpa = 3.8
 is_student = True
 
-age = str(age)
-print(type(age))
+# age = str(age)
+# print(type(age))
+name = bool(name)
+print(name)
 
 # accept user input
 name = input("what is your name?")

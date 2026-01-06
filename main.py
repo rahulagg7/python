@@ -40,3 +40,12 @@ print(name)
 # accept user input
 name = input("what is your name?")
 print(f"Hello {name}")
+
+#logical operators and, or, not
+temp = 25
+if temp > 30 and temp < 50:
+    print("it is warm")
+elif temp < 0:
+    print("it is cold")
+else:
+    print("it is ok")
